@@ -226,7 +226,7 @@ function CounterNumberChanger() {
 function ServiceSlider() {
     if ($('.service_slider').length) {
         $('.service_slider').owlCarousel({
-            loop: true,
+            loop: false,
             nav: false,
             navText: false,
             dots: false,

@@ -245,7 +245,6 @@ input,textarea {display: block; outline: none; box-shadow: none;-webkit-transiti
 .top_header .icon_header li.border_round .fa-facebook{color:#518ab6;}
 .top_header .icon_header li.border_round .fa-twitter{color:#1da1f2;}
 .top_header .icon_header li.border_round .fa-google-plus{color:#dc4937;}
-
 .top_header .icon_header li.border_round a {
   display: block;
   line-height: 40px;
@@ -300,7 +299,7 @@ input,textarea {display: block; outline: none; box-shadow: none;-webkit-transiti
   margin-left:30px;
   display: inline-block;
   position: relative;
-  top: -14px;
+  top: -7px;
   
 }
 #polyglotLanguageSwitcher:after {
@@ -3615,6 +3614,29 @@ footer .bottom_footer h6 {
   margin-top: 15px;
 }
 
+.bottom_footer .icon_header li.border_round {
+  display: inline-block;
+  width:40px;
+  height:40px;
+  background: transparent;
+  border: 1px solid #9c9c9c;
+  margin-right:11px;
+  margin-top: 0px;
+  border-radius: 50%;
+  text-align: center;
+}
+.bottom_footer ul li.border_round:after{display:none;}
+.bottom_footer .icon_header li.border_round .fa-facebook{color:#518ab6;}
+.bottom_footer .icon_header li.border_round .fa-twitter{color:#1da1f2;}
+.bottom_footer .icon_header li.border_round .fa-google-plus{color:#dc4937;}
+.bottom_footer .icon_header li.border_round a {
+  display: block;
+  line-height: 40px;
+  font-size: 14px;
+  margin:0px;
+}
+.bottom_footer .icon_header li.border_round:hover{background:#fff; border-color: #fff;}
+
 
 .scroll-top {
     width: 60px;
@@ -6111,6 +6133,9 @@ footer .bottom_footer ul li a:hover,footer .bottom_footer p a,.about_us_main_con
 .partners {
     padding-top: 60px;
     padding-bottom: 87px;
+}
+.partners .theme_title {
+  margin-bottom: 40px;
 }
 
 
