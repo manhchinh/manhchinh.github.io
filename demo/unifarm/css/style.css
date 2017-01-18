@@ -339,13 +339,14 @@ input,textarea {display: block; outline: none; box-shadow: none;-webkit-transiti
   margin-top:7px;
 }
 .navbar{margin-bottom: 0px;}
-.navbar-brand{padding:0px;}
+.navbar-brand{padding:0px; margin-top: -5px;}
 .navbar-nav li a{
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   text-transform: uppercase;
   padding: 25px 21px;
   font-size: 15px;
+  color:#7fb401;
 }
 
 /*----------- search-box --------*/
@@ -2255,6 +2256,14 @@ margin-top: 45px;
 .gallery .default-item .single-item {
   position: relative;
 }
+
+.gallery .default-item .single-item h4{text-align: left;}
+.gallery .default-item .single-item h4 a{ 
+    font-size: 20px;
+    color: #333;
+    font-weight: 700;
+    margin-top: 10px;
+  }
 
 .gallery .default-item .single-item .image-box {
   text-align: center;  
